@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <form class="query-form" id="query-form2" action="form.php" method="POST">
+        <div class="title">Log In Form</div>
+            <label for="">FirstName:</label>
+            <input type="text" id="name"name="name" placeholder="Your name" required/>
+
+            <label for="">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required/>
+
+            <label for="">Phone:</label>
+            <input type="tel" name="phone" placeholder="Your Phone Number (optional)" required/>
+
+            <label for="Gender">Gender</label>
+                <select id="Gender" name="date">
+                    <option value="male">male</option>
+                   <option value="famale">famale</option>
+                   <option value="other">other</option>
+                </select>
+                
+                    <label for="">Notation:</label>
+                    <textarea name="message" placeholder="Type your Message here" required></textarea>
+                    <button type="submit" onclick="getInputValue();">Submit</button>
+                    <button type="submit"><a href="https://www.facebook.com/">log with facebook</a></button>
+                    <label for="">are you members</label>
+                    <input type="checkbox" name="members" placeholder="Are You" required/>
+                        
+                </form>
+                <!-- Form End (without Header) -->
+            </td>
+        </tr>
+
+    
+
+</body>
+</html>
